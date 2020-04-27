@@ -4,7 +4,7 @@
 }
 
 .promo {
-background: url(../img/bg/main_bg.png);
+background: url(../img/bg/main_bg.png) repeat;
 min-height: 680px;
 width: 100%;
 display: inline-block;
