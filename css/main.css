@@ -400,6 +400,6 @@ display: inline-block;
 }
 
 @media only screen and (max-device-width: 480px) {
- body {
+ section {
      width:100%;
 }
