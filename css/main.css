@@ -1,0 +1,401 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.promo {
+background: url(../img/bg/main_bg.png);
+min-height: 680px;
+width: 100%;
+display: inline-block;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.header__call {
+    display: flex;
+    flex-direction:column-reverse ;
+    align-items: flex-end;
+    white-space: nowrap;
+}
+
+
+.header__phone {
+/* Style for "+7 (926) 4" */
+color: #ffffff;
+font-size: 19px;
+font-weight: 700;
+line-height: 24px;
+}
+
+.header__phone:hover {
+color:white;
+text-decoration: none;    
+}
+
+.button {
+    margin-left:13px;
+    border-radius: 5px;
+    width: 160px;
+    height: 45px;
+    background-color: #ec644b;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #b93030;
+}
+
+.header__logo {
+    width: 250px;
+}
+
+.header__nav nav {
+    display: flex;
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.header__nav li {
+    padding-right: 30px;
+}
+
+.header__nav a {
+    white-space: nowrap;
+    color:white;
+}
+
+.header__nav a:hover {
+color: #ec644b; 
+text-decoration: underline;   
+}
+
+.header__call p {
+color: #ffffff;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px; 
+}
+
+/* Promo */
+
+.promo_title {
+margin-top: 44px;    
+color: #ffffff;
+font-size: 24px;
+font-weight: 300;   
+text-align: center; 
+}
+
+.promo_subtitle {
+color: #ec644b;
+font-size: 70px;
+font-weight: 700;
+text-align: center; 
+}
+
+.promo_descr {
+color: #ffffff;
+font-family: "Roboto Condensed";
+font-size: 40px;
+font-weight: 400;
+text-transform: uppercase;    
+text-align: center;
+}
+
+.rowp {
+margin-top: 18px;    
+color: #ffffff;
+font-size: 16px;
+font-weight: 300;
+line-height: 22px;    
+}
+
+.btn {
+    margin-top: 39px;
+    border-radius: 5px;
+    width: 230px;
+    height: 57px;
+    background-color: #ec644b;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;  
+}
+
+.btn:hover {
+background-color:#b93030;    
+}
+
+.btn a {
+color: #ffffff;
+font-size: 15px;
+font-weight: 700;
+line-height: 17.35px;
+text-transform: uppercase;  
+text-decoration: none;  
+}
+
+/* section main */
+
+.main {
+    background:url(../img/bg/bgsec.png) repeat;
+    width: 100%;
+    min-height: 590px;
+    display: inline-block;
+}
+
+.title {
+/* Style for "Преимущест" */
+margin-top: 55px;
+color: #2e2e2e;
+font-size: 26px;
+font-weight: 700;
+line-height: 23px;
+text-transform: uppercase;  
+text-align: center;  
+}
+
+.main .main_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.main .main_block .main_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
+}
+
+.main .main_block .main_descr {
+    width: 343px;
+}
+
+.main .main_block .main_descr .main_subtitle{
+line-height: 21px;
+color: #ec644b;
+font-size: 16px;
+font-weight: 700;
+}
+
+.main .main_block .main_descr .main_text {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+/* Work */
+
+.work {
+/* Style for "Background" */
+width: 100%;
+min-height: 600px;    
+}
+
+.workk {
+margin-top: 37px;    
+}
+
+.work_subtitle {
+color: #2e2e2e;
+font-size: 21px;
+font-weight: 300;
+line-height: 24px;  
+text-align: center;    
+}
+
+.work_sub {
+ margin-top: 26px;   
+color: #ec644b;
+text-align: center;    
+font-size: 18px;
+}
+
+.work_descr {
+margin-top: 13px;   
+text-align: center;  
+color: #3a3a3a;
+font-size: 14px;
+font-weight: 300;
+line-height: 22px; 
+text-align: center;  
+}
+
+/* agent */
+
+.agent {
+    width: 100%;
+    min-height: 342px;   
+    background: url(../img/bg/main.png) no-repeat;
+    display: inline-block;
+}
+
+.imgagent {
+    text-align:center;
+    margin-top: 58px;
+}
+
+.agent_title {
+margin-top: 22px;    
+color: white;
+font-size: 26px;
+font-weight: 700;
+line-height: 23px;  
+text-align:center;  
+}
+
+.agent_descr {
+margin-top: 22px;    
+color: #ffffff;
+font-size: 19px;
+font-weight: 300;
+line-height: 27px;    
+text-align:center; 
+}
+
+/* section money */
+
+.money {
+background-color:white;
+width: 100%;
+min-height: 1020px;    
+}
+
+.m_subtitle {
+margin-top: 17px;  
+color: #2e2e2e;
+font-size: 21px;
+font-weight: 300;
+line-height: 24px;  
+text-align: center;     
+}
+
+.money_head {
+background :url(../img/headmon.png)    ;
+width: 261px;
+height: 61px;
+background-color: #25333c;
+}
+
+.money_head p {
+padding-top: 20px;
+color: #ffffff;
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+text-transform: uppercase;
+text-align: center;    
+}
+
+.money_text {
+height: 293px;
+width:261px; 
+border:2px;
+}
+
+.money_img {
+padding-top: 15px;    
+display: block;
+margin: 0 auto;
+}
+
+.money_s {
+color: #ec644b;
+font-size: 28px;
+line-height: 30px;   
+text-align: center; 
+}
+
+.m_descr {
+margin-top: 12px;    
+color: #2e2e2e;
+font-size: 14px;
+font-weight: 300;
+line-height: 20px;
+text-align: center;     
+}
+
+.mbtn {
+display: block;
+margin: 0 auto;
+width: 160px;
+height: 45px;
+background-color: #ec644b;  
+border-radius:23px;  
+color:white;
+}
+
+.mbtn:hover {
+background-color: #df4242;      
+}
+
+.mbtn a {
+color:white;
+text-decoration: none;    
+}
+
+.m_consultation {
+margin-top: 60px;    
+text-align: center;
+color: #3a3a3a;
+font-family: Roboto;
+font-size: 28px;
+font-weight: 400;
+line-height: 23px;    
+}
+
+.form {  
+margin-top: 100px;        ;
+min-height: 166px;
+}
+
+.formico {
+margin-top: 100px;    
+display: flex;
+margin:0 auto;    
+}
+
+.formi {
+    white-space: nowrap;    
+}
+
+.input_m {
+margin-top: 59px;
+width: 268px;
+height: 45px;
+border: 1px solid rgba(0, 0, 0, 0.21);
+border-radius:27px;
+background-color: #ffffff;    
+}
+
+/* Section company */
+
+.company{
+background: url(../img/bg/menbg.png)   ;
+width: 100%;
+min-height:342px;
+display: inline-block;
+}
+
