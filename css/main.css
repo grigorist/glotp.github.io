@@ -400,6 +400,10 @@ display: inline-block;
 }
 
 @media only screen and (max-device-width: 480px) {
- section {
+ .promo {
      width:100%;
+    }
+    .work {
+        width:100%;
 }
+ 
