@@ -1,6 +1,7 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    transition: all. 2s;
 }
 
 .promo {
@@ -399,8 +400,34 @@ min-height:342px;
 display: inline-block;
 }
 
-@media only screen and (max-device-width: 480px) {
- section {
-     max-width:480px;
+/* mobile */
+
+@media only screen and (max-device-width: 992px) {
+ head {
+     width:750px;
+    }
 }
+
+@media only screen and (max-device-width: 768px) {
+ head {
+     width:450px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+ head {
+     width:450px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+ head {
+     width:320px;
+    }
+}
+ 
+ 
+ 
+ 
+ 
  
