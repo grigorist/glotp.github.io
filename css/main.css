@@ -403,26 +403,67 @@ display: inline-block;
 /* mobile */
 
 @media only screen and (max-device-width: 992px) {
- head {
+ .promo {
      width:750px;
+ }
+    .main {
+    width:750px;
+    }
+    .work {
+    width:750px;
+    }
+    .agent {
+    width:750px;
+    }
+    .money {
+    width:750px;
+    }
+    .company {
+    width:750px;
+    }
+}
+    
+
+@media only screen and (max-device-width: 768px) {
+ .promo {
+     width:450px;
+    }
+    .main {
+    width:450px;
+    }
+    .work {
+    width:450px;
+    }
+    .agent {
+    width:450px;
+    }
+    .money {
+    width:450px;
+    }
+    .company {
+    width:450px;
     }
 }
 
-@media only screen and (max-device-width: 768px) {
- head {
-     width:450px;
-    }
-}
-
-@media only screen and (max-device-width: 768px) {
- head {
-     width:450px;
-    }
-}
 
 @media only screen and (max-device-width: 480px) {
  head {
      width:320px;
+    }
+    .main {
+    width:320px;
+    }
+    .work {
+    width:320px;
+    }
+    .agent {
+    width:320px;
+    }
+    .money {
+    width:320px;
+    }
+    .company {
+    width:320px;
     }
 }
  
